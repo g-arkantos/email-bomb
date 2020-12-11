@@ -1,6 +1,6 @@
 import sys
 import smtplib
-print("+[+[+[+[+[[[[[let's Start....+]+]+]+]+]]]]]")
+print("+[+[+[+[+[[[[[let's Start.....]]]]+]+]+]+]")
 def lets():
 	try:
 		print("[+[+[+[.....initializing program......]+]+]+]")
