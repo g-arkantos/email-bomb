@@ -5,7 +5,7 @@ def lets():
 	try:
 		print("[+[+[+[.....initializing program......]+]+]+]")
 		target=input("enter target gmail")
-		amout=500
+		amount=500
 		server='smtp.gmail.com'
 		port=587
 		fromadd=input("enter from address")
