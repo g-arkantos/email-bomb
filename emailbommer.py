@@ -12,14 +12,13 @@ def lets():
 		pwd=input("enter your password")
 		subject=input("enter subject")
 		message=input("enter message")
-		msg=(target,subject,message)
 		s=smtplib.SMTP(server,port)
 		s.ehlo()
 		s.starttls()
 		s.ehlo()
 		s.login(fromadd,pwd)
 		for i in range(amount+1):
-			s.sendmail(fromadd,target,msg)
+			s.sendmail(fromadd,target,message)
 			c+=1
 			s.close()
 			sys.exit(0)
